@@ -12,6 +12,7 @@ PLE_SW_LIST={"PLE01":{'IP':'10.254.3.110','HOS_USER_PORTS':['ae0','ae1'],'NFS_HO
 
 def create_user_hos_vlan_config(vlan_id,vlan_name):
 	config={}
+	set_conf={}
 	for SW in PLE_SW_LIST.keys():
 		if PLE_SW_LIST[SW]['HOS_USER_PORTS']:
 			config[SW]=[]
