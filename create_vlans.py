@@ -132,7 +132,7 @@ def apply_config(config,verbose=False):
 			apply_config_to_sw(config[SW],SW,verbose)
 
 		
-def create_new_zone(vlan_id,subnet,verbose=False)
+def create_new_zone(vlan_id,subnet,verbose=False):
 	FW_SET_CONF = create_zone_ifw(
 	for SW in PLE_SW_LIST.keys()
 		if SW in config.keys()
