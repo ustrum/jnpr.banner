@@ -10,6 +10,13 @@ FW_LIST:
     DMZ_USER_PORTS: ['reth1']
     INTERNET_PORTS: ['reth0']
 
+    
+PSP_SW_LIST:
+  PSP01:
+   IP: 10.254.3.100
+  PSP51:  
+   IP: 10.254.3.101
+  
 PLE_SW_LIST:
 
   PLE01:
